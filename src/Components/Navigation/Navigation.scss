@@ -1,10 +1,97 @@
-.container {
+// === Переменные ===
+$primary-color: #FF3F3A;
+$primary-gradient: linear-gradient(45deg, #FF3F3A, #F75E05);
+$text-color: #1E212C;
+$text-muted: #9A9CA5;
+$font-weight-medium: 500;
+$transition-fast: 0.3s;
+$border-radius: 4px;
+$container-padding: 20px;
+
+// === Навигация ===
+.navigation {
+  .white {
+    background-color: white;
+  }
+
+  .red {
+    background-color: linear-gradient(90deg, #fff1f0 0%, #ffe4dc 100%);
+  }
+
+  padding: $container-padding 0;
+
+  .container {
     max-width: 1230px;
     margin: auto;
-}
-nav {
-    padding: 20px 0 20px 0;
-}
-ul li {
+  }
+
+  .nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo img {
+    height: 30px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 30px;
     list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      a {
+        text-decoration: none;
+        color: $text-color;
+        font-weight: $font-weight-medium;
+        transition: color $transition-fast;
+
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+
+  .nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .consultation-btn {
+      background: $primary-gradient;
+      border: none;
+      color: white;
+      padding: 12px 24px;
+      border-radius: $border-radius;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity $transition-fast;
+
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+
+    .login-link {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      color: $text-color;
+      text-decoration: none;
+      font-weight: $font-weight-medium;
+      font-size: 14px;
+
+      .user-icon {
+        font-size: 18px;
+      }
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
 }

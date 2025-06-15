@@ -4,4 +4,14 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Leto";
+  src: url("./assets/fonts/Leto.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Leto", sans-serif;
 }/*# sourceMappingURL=App.css.map */
