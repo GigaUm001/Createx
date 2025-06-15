@@ -1,0 +1,12 @@
+.container {
+  max-width: 1230px;
+  margin: auto;
+}
+
+nav {
+  padding: 20px 0 20px 0;
+}
+
+ul li {
+  list-style: none;
+}/*# sourceMappingURL=Navigation.css.map */
