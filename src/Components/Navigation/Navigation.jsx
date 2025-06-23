@@ -15,9 +15,9 @@ const Navigation = () => {
           </div>
 
           <ul className="nav-links">
-            <li><Link to="/">HomePage</Link></li>
+            <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About Us</Link></li>
-            <li><Link to="/courses">Courses</Link></li>
+            <li><Link to="/course">Course</Link></li>
             <li><Link to="/event">Events</Link></li>
             <li><Link to="/blog">Blog</Link></li>
             <li><Link to="/contacts">Contacts</Link></li>

@@ -1,11 +1,7 @@
 .navigation {
-  padding: 20px 0;
-}
-.navigation .white {
   background-color: white;
-}
-.navigation .red {
-  background-color: linear-gradient(90deg, #fff1f0 0%, #ffe4dc 100%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 20px 0;
 }
 .navigation .container {
   max-width: 1230px;

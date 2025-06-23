@@ -10,14 +10,8 @@ $container-padding: 20px;
 
 // === Навигация ===
 .navigation {
-  .white {
-    background-color: white;
-  }
-
-  .red {
-    background-color: linear-gradient(90deg, #fff1f0 0%, #ffe4dc 100%);
-  }
-
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   padding: $container-padding 0;
 
   .container {
